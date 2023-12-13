@@ -134,3 +134,68 @@ nav button#menuButton{
 .main .right img{
     width: 500px;
 }
+
+
+
+.skills{
+    padding: 110px 85px 0;
+    margin-bottom: 900px;
+}
+
+.skills h3,
+.about right h3,
+.portfolio .header h3,
+.contact .header h3{
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.skills .skills-item{
+    display: flex;
+    margin-top: 70px;
+    gap: 30px;
+}
+
+.skills .skills-item .item{
+    background-color: #deebee;
+    width: 25%;
+    border-radius: 10px;
+    padding: 32px;
+    border-bottom: 4px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.skills .skills-item .item:hover{
+    border-color: #5e3bee;
+}
+
+.skills .skills-item .item .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 46px;
+    height: 46px;
+    border-radius: 10px;
+    margin-bottom: 22px;
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+}
+
+.skills .skills-item .item .icon i{
+    font-size: 26px;
+    color: #006b6a;
+}
+
+.skills .skills-item .item h4,
+.portfolio .portfolio-item .info h4{
+    font-size: 18px;
+}
+
+.skills .skills-item .item p{
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1e1e53;
+}
+
