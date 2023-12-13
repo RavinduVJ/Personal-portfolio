@@ -140,6 +140,7 @@ nav button#menuButton{
     display: flex;
     align-items: center;
     gap: 60px;
+    background-color: #deebee;
 }
 
 .about .left{
@@ -158,6 +159,7 @@ nav button#menuButton{
 
 .skills{
     padding: 110px 85px 0;
+    background-color: #deebee;
 }
 
 .skills h3,
@@ -175,7 +177,7 @@ nav button#menuButton{
 }
 
 .skills .skills-item .item{
-    background-color: #deebee;
+    background-color: #fff;
     width: 25%;
     border-radius: 10px;
     padding: 32px;
