@@ -300,3 +300,38 @@ nav button#menuButton{
     color: #5e3bee;
 } */
 
+.contact-text h4{
+    margin: 15px 0;
+    color: #1e1e53;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contact-text p{
+    color: #1e1e53;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 2rem;
+}
+
+.contact-list{
+    margin-bottom: 3rem;
+}
+
+.contact-list li{
+    margin-bottom: 10px;
+    display: block;
+}
+
+.contact-list i{
+    display: inline-block;
+    color: #5e3bee;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all .40s ease;
+}
+
+.contact-list li a:hover{
+    transform: scale(1.01) translateY(-5px);
+    color: #5e3bee;
+}
